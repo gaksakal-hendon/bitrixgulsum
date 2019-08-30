@@ -1,0 +1,67 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Verify warning message for invalid credentials",
+        "description": "",
+        "id": "as-user-i-want-to-login-under-different-roles;verify-warning-message-for-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "user is on the landing page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "user logs in with \"wrong\" username and \"wrong\" password",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "user verifies that \"Incorrect login or password\" warning message is displayed",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VYT-4121"
+          },
+          {
+            "name": "@negative"
+          }
+        ]
+      }
+    ],
+    "name": "As user I want to login under different roles",
+    "description": "",
+    "id": "as-user-i-want-to-login-under-different-roles",
+    "keyword": "Feature",
+    "uri": "C:\\Users\\User\\GULSUM\\NextBasecrm\\src\\test\\resource\\features\\login\\Login.feature",
+    "tags": [
+      {
+        "name": "@VYT-4121",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
